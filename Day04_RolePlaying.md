@@ -1,3 +1,9 @@
+<img width="1904" height="1012" alt="Content Strategist" src="https://github.com/user-attachments/assets/ac5fbad2-dea4-41cf-b332-630d33c9a37b" />
+<img width="1904" height="1012" alt="Product Manager" src="https://github.com/user-attachments/assets/7b4f4f09-8bc8-4715-93a4-65a9c1d48f6d" />
+<img width="1904" height="1012" alt="Tech Interviewer" src="https://github.com/user-attachments/assets/39148251-b5c5-4a1e-9d2d-1f81c2a8e61f" />
+<img width="1904" height="1012" alt="Upwork Freelancer" src="https://github.com/user-attachments/assets/3ce100b2-ee9e-4897-8fe7-665b7c16b96a" />
+<img width="1904" height="1012" alt="Code Reviewer" src="https://github.com/user-attachments/assets/f19cf459-fe57-4b42-8c9b-d3774f333699" />
+<img width="1904" height="1012" alt="Code Reviewer Bonus" src="https://github.com/user-attachments/assets/940d75b3-f2d1-43c5-af0f-9cbab884d55d" />
 **Role Playing Prompts**
 
 **1\. Content Strategist**
