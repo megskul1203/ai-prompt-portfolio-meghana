@@ -1,3 +1,4 @@
+<img width="1920" height="1020" alt="temp 0 2 vs temp 0 8 vs temp 0 9" src="https://github.com/user-attachments/assets/b078392c-397b-419c-a39a-b9e669e557d6" />
 1\. "Write a 100-word product description for herbal tea"
 
 Discover the soothing power of nature with our premium herbal tea, crafted from carefully selected herbs, flowers, and spices. This caffeine-free blend offers a refreshing taste and calming aroma, perfect for relaxation and daily wellness. Rich in natural antioxidants, it supports digestion, immunity, and stress relief. Free from artificial flavors and preservatives, every cup delivers pure, natural goodness. Enjoy it hot or iced as part of your morning routine or evening wind-down ritual. Sip slowly, unwind deeply, and let our herbal tea bring balance and comfort to your day.
