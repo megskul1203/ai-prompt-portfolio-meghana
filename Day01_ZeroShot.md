@@ -1,3 +1,5 @@
+<img width="1904" height="1012" alt="Herbal tea descriptiom" src="https://github.com/user-attachments/assets/17b42022-8555-4792-af43-668d62203446" />
+<img width="1920" height="1020" alt="Quantum computer" src="https://github.com/user-attachments/assets/456bc734-d966-4a26-9c08-802864409baf" />
 1\. "Write a 100-word product description for herbal tea"
 
 Experience calm in every cup with our premium herbal tea, crafted from a blend of handpicked natural herbs, flowers, and spices. Naturally caffeine-free, this soothing infusion supports relaxation, digestion, and overall wellness. Each sip delivers a gentle aroma and refreshing taste, perfect for unwinding after a long day or starting your morning mindfully. Free from artificial flavours and preservatives, our herbal tea is a pure, wholesome choice for your daily routine. Brew a cup, breathe in the goodness, and let nature nurture you—one soothing sip at a time.
