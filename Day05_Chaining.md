@@ -1,3 +1,8 @@
+<img width="1920" height="1020" alt="Blog Content Pipeline" src="https://github.com/user-attachments/assets/a4533875-2ef6-4216-8bcc-02fc3c8a4b02" />
+<img width="1920" height="1020" alt="Email campaign" src="https://github.com/user-attachments/assets/9f9d3e45-0c6f-4fb1-8fa1-ba244dc90569" />
+<img width="1920" height="1020" alt="Job Application" src="https://github.com/user-attachments/assets/4fba9399-ad78-4fb8-924e-b56f9c9af937" />
+<img width="1920" height="1020" alt="Product Launch" src="https://github.com/user-attachments/assets/9b1d0e81-4c63-4960-b793-bb1130078dd2" />
+<img width="1920" height="1020" alt="Interview Prep" src="https://github.com/user-attachments/assets/1067e05f-d547-461e-bbb0-1d9352a33a5f" />
 \# Day 05: Prompt Chaining Mastery
 
 **\#\# Chain 1: Blog Content Pipeline**
