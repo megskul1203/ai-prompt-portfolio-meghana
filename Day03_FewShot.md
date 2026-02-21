@@ -1,3 +1,4 @@
+<img width="1920" height="1020" alt="Email classifier and JSON formatter" src="https://github.com/user-attachments/assets/46fc13c5-720d-42a4-805e-448b3eed7772" />
 1. Email Classifiers  
      
    Examples:   
