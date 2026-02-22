@@ -1,3 +1,10 @@
+<img width="1920" height="1020" alt="Math Reasoning" src="https://github.com/user-attachments/assets/11be676c-fb82-45d1-a3a8-a858e9b046db" />
+<img width="560" height="1003" alt="Career 1" src="https://github.com/user-attachments/assets/6568b2f8-6dc4-4d75-97d2-8431a8c2bf06" />
+<img width="560" height="1003" alt="Career 2" src="https://github.com/user-attachments/assets/82a7ea0f-7353-4b0e-ab86-016d9863bf3a" />
+<img width="560" height="1003" alt="Career 3" src="https://github.com/user-attachments/assets/eb6ff069-d071-4b32-98f7-2131d2af7d2a" />
+<img width="560" height="1003" alt="Career 4" src="https://github.com/user-attachments/assets/f02420bb-be89-473f-95ff-e6364e9b7a44" />
+<img width="1920" height="1020" alt="Logic puzzle 1" src="https://github.com/user-attachments/assets/5b2faf60-8ccf-42dc-b511-b434455689bb" />
+<img width="1920" height="1020" alt="Logic puzzle 2" src="https://github.com/user-attachments/assets/7af447a4-4797-479d-afe9-82d419d22287" />
 \# Day 06: Chain-of-Thought Reasoning Mastery
 
 1. **\*\*EXERCISE 1: Math Reasoning\*\***
