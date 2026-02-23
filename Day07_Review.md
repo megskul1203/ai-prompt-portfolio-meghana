@@ -1,3 +1,6 @@
+<img width="1920" height="1020" alt="Roleplaying" src="https://github.com/user-attachments/assets/676bf3b2-3ccf-4c5e-a1c0-ed71ccf7456e" />
+<img width="1920" height="1020" alt="Chaining" src="https://github.com/user-attachments/assets/d0327878-a2e2-43ad-a8e1-414c866ce774" />
+<img width="1920" height="1020" alt="Zero shot and parameter" src="https://github.com/user-attachments/assets/da86266a-3749-4120-a23c-4900e29ce776" />
 \# Day 07: Week 1 Review   
 \#\# Skills Mastered (6/6)
 
