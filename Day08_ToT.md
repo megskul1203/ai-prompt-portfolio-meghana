@@ -1,3 +1,9 @@
+<img width="1920" height="1020" alt="ToT" src="https://github.com/user-attachments/assets/835ee656-03d1-403d-acb4-a827bc62defe" />
+<img width="1920" height="1020" alt="ToT Branch 1" src="https://github.com/user-attachments/assets/21798023-1759-4caf-b835-b174dc88e975" />
+<img width="1920" height="1020" alt="ToT Branch 2" src="https://github.com/user-attachments/assets/e1eda9e2-805f-42bb-9d39-cb812435c6a6" />
+<img width="1920" height="1020" alt="ToT Branch 3" src="https://github.com/user-attachments/assets/0e85619f-0cce-46b1-ba53-fc87dad8416e" />
+<img width="1920" height="1020" alt="ToT Final Ranking 1" src="https://github.com/user-attachments/assets/67343ac1-5a91-425c-81f8-8cc55badeee7" />
+<img width="1920" height="1020" alt="ToT Final Ranking 2" src="https://github.com/user-attachments/assets/1d054172-2936-46d9-96c1-b7cd3c42a12c" />
 \# Day 08: Tree of Thoughts \- Freshworks SLA Optimization
 
 Prompt Input:
