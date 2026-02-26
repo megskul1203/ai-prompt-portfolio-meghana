@@ -1,3 +1,10 @@
+<img width="1920" height="1020" alt="Enterprise ToT 1" src="https://github.com/user-attachments/assets/9a16a350-dc27-4c0f-908d-f93db17a2ed1" />
+<img width="1920" height="1020" alt="Enterprise ToT 2" src="https://github.com/user-attachments/assets/c5c67c02-7eef-43ef-bf1c-6400a85accca" />
+<img width="1920" height="1020" alt="Enterprise ToT 3" src="https://github.com/user-attachments/assets/8391384c-1398-4bf2-82e0-5224db69ad35" />
+<img width="1920" height="1020" alt="Enterprise ToT 4" src="https://github.com/user-attachments/assets/b1c89a23-7382-44b6-8874-52e79dd7d0c0" />
+<img width="1920" height="1020" alt="Enterprise ToT 5" src="https://github.com/user-attachments/assets/3448ab28-4b83-4af2-bba6-2b6a67ba56ff" />
+<img width="1920" height="1020" alt="Enterprise ToT 6" src="https://github.com/user-attachments/assets/270144f9-e50e-4a34-827f-9ccb9c9b2c9e" />
+<img width="1920" height="1020" alt="Enterprise ToT 7" src="https://github.com/user-attachments/assets/a994917c-5d43-4028-a650-1857429957ea" />
 \# Day 10: ToT Capstone \- Freshworks+Postman Pipeline
 
 \#\# Pipeline Solved  
