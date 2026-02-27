@@ -1,3 +1,5 @@
+<img width="1920" height="1020" alt="RAG 1" src="https://github.com/user-attachments/assets/65cb5748-bd9b-4f85-a7e0-a7260c5463a7" />
+<img width="1920" height="1020" alt="RAG 2" src="https://github.com/user-attachments/assets/5c310b40-9b9b-4a43-aab2-5c5066614ecc" />
 \# Day 11: RAG Basics \- Freshworks Freddy Agent
 
 **\#\# RAG Demo**  
