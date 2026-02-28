@@ -1,3 +1,5 @@
+<img width="1920" height="1020" alt="Vector Search 1" src="https://github.com/user-attachments/assets/717e5187-792b-4872-97b4-15b29e046be4" />
+<img width="1920" height="1020" alt="Vector Search 2" src="https://github.com/user-attachments/assets/9f5e08dd-3899-4a77-93f4-50522a95665a" />
 **\#\# \*\*Day 12 Mission: Freshworks KB → Vector Search\*\***
 
 Goal: Convert docs → embeddings → cosine similarity → Top-K retrieval  
