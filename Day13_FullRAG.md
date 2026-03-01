@@ -1,3 +1,6 @@
+<img width="1920" height="1020" alt="FullRAG 1" src="https://github.com/user-attachments/assets/d9e51fe2-9fb2-49b2-b19c-d2c51c88571b" />
+<img width="1920" height="1020" alt="FullRAG 2" src="https://github.com/user-attachments/assets/d31d4427-0f66-462b-8522-04f4596893eb" />
+<img width="1920" height="1020" alt="FullRAG 3" src="https://github.com/user-attachments/assets/d5df0aa4-c960-4bf3-a9d5-5a2ff476fdf8" />
 \#\#\*\*Day 13: Full RAG Pipeline\*\* \- Freshworks Freddy \+ Postman validation\!
 
 **Prompt:**   
