@@ -1,3 +1,6 @@
+<img width="1920" height="1020" alt="RAGMetrics 1" src="https://github.com/user-attachments/assets/af810020-ee69-4e4d-b2c8-8fe2f3703202" />
+<img width="1920" height="1020" alt="RAGMetrics 2" src="https://github.com/user-attachments/assets/79da1ff5-9bc9-41c3-a2f8-a487c618739a" />
+<img width="1920" height="1020" alt="RAGMetrics 3" src="https://github.com/user-attachments/assets/1920e86c-3346-44cd-b4dc-ce04cbba2c4b" />
 **\*\*Day 14: RAG \+ Evaluation Metrics\*\* \- Week 3 capstone\!**
 
 **\#\# \*\*Mission: Measure RAG Production Quality\*\***  
