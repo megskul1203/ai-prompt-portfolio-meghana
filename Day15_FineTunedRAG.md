@@ -1,3 +1,8 @@
+<img width="1920" height="1020" alt="FineTunedRAG 1" src="https://github.com/user-attachments/assets/28fa5119-5122-48ae-8cb1-8586cda44fbd" />
+<img width="1920" height="1020" alt="FineTunedRAG 2" src="https://github.com/user-attachments/assets/50153466-9683-4bab-b2d4-c25084782d99" />
+<img width="1920" height="1020" alt="FineTunedRAG 3" src="https://github.com/user-attachments/assets/2e62e090-aa89-498d-9f5a-722297715119" />
+<img width="1920" height="1020" alt="FineTunedRAG 4" src="https://github.com/user-attachments/assets/ab33250e-4d6f-4a0b-84e8-ab5e5dcef52a" />
+<img width="1920" height="1020" alt="FineTunedRAG 5" src="https://github.com/user-attachments/assets/09a51740-8a45-4292-accf-a78574954295" />
 **\*\*Day 15: RAG Fine-tuning \+ Custom Embeddings\*\*** 
 
 **\#\# \*\*Mission: Domain-Specific RAG (Freshworks Specialized)\*\***  
