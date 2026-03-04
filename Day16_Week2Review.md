@@ -1,3 +1,9 @@
+<img width="1920" height="1020" alt="RAG Retrieval Test" src="https://github.com/user-attachments/assets/6e3f71c8-e4a7-4ee2-84f4-9d2cee5572f5" />
+<img width="1920" height="1020" alt="Vector Similarity Test 1" src="https://github.com/user-attachments/assets/abba4f98-8bb4-4898-a9ae-55f747dab589" />
+<img width="1920" height="1020" alt="Vector Similarity Test 2" src="https://github.com/user-attachments/assets/d8600bb1-6bdc-4717-86c6-5be944147ad6" />
+<img width="1920" height="1020" alt="Fine-tuning Validation 2" src="https://github.com/user-attachments/assets/9abf18ba-2104-4e52-9af1-3b4aac860b5b" />
+<img width="1920" height="1020" alt="Fine-tuning Validation 3" src="https://github.com/user-attachments/assets/8da5f25e-b405-40c5-9f59-830f31128fce" />
+<img width="1920" height="1020" alt="Fine-tuning Validation 1" src="https://github.com/user-attachments/assets/db93ddc1-200d-485e-8e9f-9c0ee3f642e0" />
 ### **\*\*Day 16: Week Review** 
 
 Week 2 RAG Mastery Audit 
