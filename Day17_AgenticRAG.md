@@ -1,3 +1,8 @@
+<img width="1920" height="1020" alt="AgenticRAG 1" src="https://github.com/user-attachments/assets/e60272da-b376-426f-8a3c-bbf90c16f281" />
+<img width="1920" height="1020" alt="AgenticRAG 2" src="https://github.com/user-attachments/assets/16233a4d-2cfe-4e83-9da7-285f09e693bc" />
+<img width="1920" height="1020" alt="AgenticRAG 3" src="https://github.com/user-attachments/assets/36673bf5-02ef-4599-878b-8ee11a7624fc" />
+<img width="1920" height="1020" alt="AgenticRAG 4" src="https://github.com/user-attachments/assets/a640d5eb-1362-4f20-b1a0-6291aa4946c5" />
+<img width="1920" height="1020" alt="AgenticRAG 5" src="https://github.com/user-attachments/assets/d1eb0c6f-2dcc-4a40-bd69-a67cc347aa1b" />
 #### **\*\*Day 17: Agentic RAG \- Multi-Agent Systems\*\*** 
 
 #### **\#\# \*\*Mission: Autonomous Freshworks Ticket Resolution\*\***
