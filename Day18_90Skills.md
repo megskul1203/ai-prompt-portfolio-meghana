@@ -1,3 +1,9 @@
+<img width="1920" height="1020" alt="90-Skills Audit 1" src="https://github.com/user-attachments/assets/e939307c-92ce-4318-a058-a4b1d406f313" />
+<img width="1920" height="1020" alt="90-Skills Audit 2" src="https://github.com/user-attachments/assets/8c3805ac-6a58-440c-b54d-f596034e2f78" />
+<img width="1920" height="1020" alt="90-Skills Audit 3" src="https://github.com/user-attachments/assets/f73dca87-709a-450c-ac2c-fe79780beab1" />
+<img width="1920" height="1020" alt="90-Skills Audit 4" src="https://github.com/user-attachments/assets/14b6ab73-4f19-423b-8738-1c10b72baaab" />
+<img width="1920" height="1020" alt="90-Skills Audit 5" src="https://github.com/user-attachments/assets/0e5441de-42d6-4166-8390-83f74faaffed" />
+<img width="1920" height="1020" alt="90-Skills Audit 6" src="https://github.com/user-attachments/assets/6e40e8cd-1ab9-4238-93ec-8cc3fa33ae89" />
 #### **\*\*Day 18: 90 AI Prompt Skills Milestone\*\*** 
 
 **\#\# \*\*Mission: Map 17 → 90 Skills\*\***  
