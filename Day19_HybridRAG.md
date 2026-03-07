@@ -1,3 +1,6 @@
+<img width="1920" height="1020" alt="HybridRAG 1" src="https://github.com/user-attachments/assets/aad4324a-1563-4776-ab6d-24b94f87e1cd" />
+<img width="1920" height="1020" alt="HybridRAG 2" src="https://github.com/user-attachments/assets/b602b482-62aa-4b89-974d-c1453f185282" />
+<img width="1920" height="1020" alt="HybridRAG 3" src="https://github.com/user-attachments/assets/1a1ea978-88fe-4b3c-a1f3-790d2086afb7" />
 #### **\*\*Day 19: Hybrid RAG (BM25 \+ Vector)\*\*** 
 
 **\#\# \*\*Mission: Combine keyword \+ semantic search\*\***  
