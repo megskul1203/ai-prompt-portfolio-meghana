@@ -1,3 +1,7 @@
+<img width="1920" height="1020" alt="AgentMemory 1" src="https://github.com/user-attachments/assets/71ea7e74-096a-45ae-b1c5-44eba7d1d218" />
+<img width="1920" height="1020" alt="AgentMemory 2" src="https://github.com/user-attachments/assets/b4f1c0e9-08ea-4ffa-ae2d-2d650ffc372a" />
+<img width="1920" height="1020" alt="AgentMemory 3" src="https://github.com/user-attachments/assets/0d4c906e-f708-4e85-b76a-a5e114bf6f81" />
+<img width="1920" height="1020" alt="AgentMemory 4" src="https://github.com/user-attachments/assets/8aa43f37-fb92-4fa8-bb49-f88cdf8a8ba5" />
 #### **\*\*Day 20: Agent Memory Systems\*\***
 
 **\#\# \*\*Mission: Give agents persistent memory across tickets\*\***
