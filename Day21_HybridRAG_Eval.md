@@ -1,3 +1,11 @@
+<img width="1920" height="1020" alt="HybridRAG_Eval 1" src="https://github.com/user-attachments/assets/c76f4655-e9ac-457c-8baf-1f8e379554e4" />
+<img width="1920" height="1020" alt="HybridRAG_Eval 2" src="https://github.com/user-attachments/assets/66bc6d2c-eefb-4cd3-acb8-9dd1b2012744" />
+<img width="1920" height="1020" alt="HybridRAG_Eval 3" src="https://github.com/user-attachments/assets/5b26de13-0e0e-46eb-9a4c-1464c8ae1f09" />
+<img width="1920" height="1020" alt="HybridRAG_Eval 4" src="https://github.com/user-attachments/assets/fda881a6-3923-4653-8334-7fbab9e0b30f" />
+<img width="1920" height="1020" alt="HybridRAG_Eval 5" src="https://github.com/user-attachments/assets/b039c45a-8972-491b-819a-d76c6b60f28e" />
+<img width="1920" height="1020" alt="HybridRAG_Eval 6" src="https://github.com/user-attachments/assets/b5a182c5-ee58-4fc6-98cc-0d4ad43ee85e" />
+<img width="1920" height="1020" alt="HybridRAG_Eval 7" src="https://github.com/user-attachments/assets/a7f7135b-a8f0-40a6-8bb2-94c945030a60" />
+<img width="1920" height="1020" alt="HybridRAG_Eval 8" src="https://github.com/user-attachments/assets/f7e813aa-5184-4eba-ad0d-7df951e4f3ec" />
 #### **\*\*DAY 21: HYBRID RAG EVALUATION FRAMEWORK\*\***
 
 **GIVE ME COMPLETE WORKING SOLUTION:**
