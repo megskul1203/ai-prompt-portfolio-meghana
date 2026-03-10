@@ -1,3 +1,13 @@
+<img width="1920" height="1020" alt="MultiModalRAG 1" src="https://github.com/user-attachments/assets/2747a198-f1b8-4473-91da-0981a68aff0e" />
+<img width="1920" height="1020" alt="MultiModalRAG 2" src="https://github.com/user-attachments/assets/1aa75aed-5644-46a4-8614-6f245b72b2f5" />
+<img width="1920" height="1020" alt="MultiModalRAG 3" src="https://github.com/user-attachments/assets/74d73f2c-219f-4634-8a16-5e1ac63f788f" />
+<img width="1920" height="1020" alt="MultiModalRAG 4" src="https://github.com/user-attachments/assets/651a54fe-f6d3-4612-9718-3a77d57afa6f" />
+<img width="1920" height="1020" alt="MultiModalRAG 5" src="https://github.com/user-attachments/assets/5c9bbd75-3428-4aad-b1eb-8d24f6f68fd8" />
+<img width="1920" height="1020" alt="MultiModalRAG 6" src="https://github.com/user-attachments/assets/17591331-6a30-4012-a109-1212bcc9a7e5" />
+<img width="1920" height="1020" alt="MultiModalRAG 7" src="https://github.com/user-attachments/assets/2e9280e9-f9cd-48ae-a316-5c4dcdef2d41" />
+<img width="1920" height="1020" alt="MultiModalRAG 8" src="https://github.com/user-attachments/assets/fadfb516-4844-48ee-97c2-58a223aefd74" />
+<img width="1920" height="1020" alt="MultiModalRAG 9" src="https://github.com/user-attachments/assets/b744f472-261c-4bc9-abf3-79f7b1dea3f2" />
+<img width="1920" height="1020" alt="MultiModalRAG 10" src="https://github.com/user-attachments/assets/20fbdc7e-fef4-416b-b8e9-aaee402ce2e0" />
 #### **\*\*DAY 22: MULTI-MODAL RAG (TEXT \+ IMAGE)\*\***
 
 **MULTI-MODAL RAG PROMPT:**
