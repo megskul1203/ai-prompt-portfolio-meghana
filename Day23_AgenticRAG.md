@@ -1,3 +1,11 @@
+<img width="1920" height="1020" alt="AgenticRAG(memory + Tool calling) 1" src="https://github.com/user-attachments/assets/cd53b874-e6f2-4014-8476-d41a438c5472" />
+<img width="1920" height="1020" alt="AgenticRAG(memory + Tool calling) 2" src="https://github.com/user-attachments/assets/66c0549f-2743-45ca-8c58-d083d11d7262" />
+<img width="1920" height="1020" alt="AgenticRAG(memory + Tool calling) 3" src="https://github.com/user-attachments/assets/2ddb22ac-d116-473f-bd67-441e5c484f70" />
+<img width="1920" height="1020" alt="AgenticRAG(memory + Tool calling) 4" src="https://github.com/user-attachments/assets/bac299a1-df42-465e-adc2-8c4d044df153" />
+<img width="1920" height="1020" alt="AgenticRAG(memory + Tool calling) 5" src="https://github.com/user-attachments/assets/cfdff430-bf79-460a-ad9d-b0de36031f5c" />
+<img width="1920" height="1020" alt="AgenticRAG(memory + Tool calling) 6" src="https://github.com/user-attachments/assets/881cccea-1b90-4d7c-8769-f5b8f1555210" />
+<img width="1920" height="1020" alt="AgenticRAG(memory + Tool calling) 7" src="https://github.com/user-attachments/assets/3ca18d74-72ae-4ced-abf1-94b0fe962c2a" />
+<img width="1920" height="1020" alt="AgenticRAG(memory + Tool calling) 8" src="https://github.com/user-attachments/assets/8ef69c18-a7cc-4456-8bb2-8edff7b8cb48" />
 #### **\*\*DAY 23: AGENTIC RAG (MEMORY \+ TOOL CALLING)\*\***
 
 **GIVE ME COMPLETE WORKING SOLUTION:**
