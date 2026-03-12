@@ -1,3 +1,10 @@
+<img width="1920" height="1020" alt="Observability 1" src="https://github.com/user-attachments/assets/474732a9-cdfc-44d8-aedd-dca423f29387" />
+<img width="1920" height="1020" alt="Observability 2" src="https://github.com/user-attachments/assets/f880763f-3d87-48bd-a174-a86b44776879" />
+<img width="1920" height="1020" alt="Observability 3" src="https://github.com/user-attachments/assets/209cc23d-0157-4221-b84a-a6f40db4e321" />
+<img width="1920" height="1020" alt="Observability 4" src="https://github.com/user-attachments/assets/0f568f20-cdde-48a2-bb71-31c9406f6230" />
+<img width="1920" height="1020" alt="Observability 5" src="https://github.com/user-attachments/assets/7ef92fa5-4f42-4971-996b-8ae859c26156" />
+<img width="1920" height="1020" alt="Observability 6" src="https://github.com/user-attachments/assets/72016363-c654-4d24-ab9b-589b33fc8610" />
+<img width="1920" height="1020" alt="Observability 7" src="https://github.com/user-attachments/assets/0fb596d6-f4ec-4145-8a3a-c1a250bc7d5f" />
 #### **\*\*DAY 24: PRODUCTION RAG OBSERVABILITY\*\***
 
 **GIVE ME COMPLETE WORKING SOLUTION:**
