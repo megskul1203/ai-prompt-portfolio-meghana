@@ -1,3 +1,26 @@
+# Day 25: Multi-Agent RAG System
+
+Agents:
+• Triage Agent
+• RAG Agent
+• Escalation Agent
+• Resolution Agent
+• Supervisor Router
+
+Workflow:
+Ticket → Triage → RAG → Escalate/Resolve
+
+## Evaluation
+
+| System | Handoff Acc | Resolution | Cost |
+|---|---|---|---|
+| Single Agent | 66% | 3.8 steps | $0.004 |
+| Multi-Agent | 100% | 2.2 steps | $0.005 |
+
+Key Insight:
+Specialized agents outperform monolithic systems for complex enterprise workflows.
+
+
 #### **\*\*DAY 25: MULTI-AGENT SYSTEMS (ORCHESTRATION)\*\***
 
 Multi-agent orchestration (Freshdesk support team)
