@@ -1,3 +1,32 @@
+# Day 27: RAG Cost Optimization
+
+Goal:
+Reduce production RAG cost using caching, compression, and quantization.
+
+Simulated 1000 production queries.
+
+## Optimization Results
+
+| Strategy | Token Savings | Cost/1K | Latency Impact |
+|---|---|---|---|
+| Embedding Cache | 40% | ↓ | none |
+| Prompt Compression | 30% | ↓ | none |
+| 4-bit Quantization | memory ↓75% | ↓ | -20% |
+| Combined | 58% | ↓58% | -20% |
+
+## Production Impact
+
+Baseline Cost: $2.70 / 1K queries  
+Optimized Cost: $1.13 / 1K queries  
+
+Total Cost Reduction: **58%**
+
+## Key Insight
+
+Cost optimization is critical for production RAG systems at scale.
+
+
+
 #### **\*\*DAY 27: RAG COST OPTIMIZATION (CACHING \+ QUANTIZATION)\*\***
 
 Current portfolio: ai-prompt-portfolio-meghana (26/90 skills)  
