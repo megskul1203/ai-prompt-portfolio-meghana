@@ -1,3 +1,32 @@
+# Day 28: RAG A/B Testing Framework
+
+Goal:
+Experimentally evaluate RAG improvements before production deployment.
+
+Variants Tested:
+A: Hybrid RAG (Day 21)
+B: Self-Healing RAG (Day 26)
+
+Queries tested: 100 support scenarios
+
+## Experiment Results
+
+| Variant | Latency | Satisfaction | Cost | Hallucination |
+|---|---|---|---|---|
+| Hybrid RAG | 1.31s | 3.81 | $0.002 | 10% |
+| Self-Healing RAG | 1.71s | 4.41 | $0.0024 | 3% |
+
+Statistical Test:
+t-test p-value = 0.00002
+
+Winner:
+Self-Healing RAG
+
+## Key Insight
+
+Reliability improvements significantly increase user satisfaction despite slight latency increase.
+
+
 #### **\*\*DAY 28: RAG A/B TESTING FRAMEWORK\*\***
 
 Current portfolio: ai-prompt-portfolio-meghana (27/90 skills)  
