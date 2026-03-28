@@ -1,3 +1,4 @@
+<img width="1536" height="1024" alt="Freddy AI Agent architecture diagram" src="https://github.com/user-attachments/assets/6291a094-4cda-4e58-9b5a-61d4c6dfd367" />
 #### **\*\*DAY 40: SYSTEM DESIGN \- FREDY AI AGENT ARCHITECTURE\*\***
 
 **PROMPT:**
