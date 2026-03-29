@@ -1,3 +1,4 @@
+<img width="1536" height="1024" alt="Freddy AI cost optimization flowchart" src="https://github.com/user-attachments/assets/31b8729e-f3d5-4572-82e9-220dbb352c7b" />
 #### **\*\*DAY 41: AI INFRA COST OPTIMIZATION \+ BUSINESS CASE\*\***
 
 **PROMPT:**  
