@@ -1,0 +1,17 @@
+﻿Introduction to Artificial Intelligence in the Workplace
+
+
+Artificial intelligence is changing the way we work. AI tools can help employees 
+complete tasks faster, make better decisions, and focus on more creative work. 
+However, many employees feel uncertain about how AI will affect their jobs.
+
+
+This module will help you understand what AI is, how it works in simple terms, 
+and how you can use it effectively in your daily work. By the end of this module, 
+you will be able to identify AI tools relevant to your role, use basic AI features 
+confidently, and understand the limitations of AI so you can verify its outputs.
+
+
+It is important to remember that AI is a tool, not a replacement for human 
+judgement. The best results come from combining AI capabilities with your own 
+expertise and critical thinking.
