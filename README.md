@@ -11,12 +11,11 @@
 ## 🚀 Live Applications
 
 > These are real, deployed AI applications — not just code files. Click and try them.
-
 | App | What It Does | Link |
 |---|---|---|
 | 🧠 RAG Pipeline | Ask questions answered from a real knowledge base — no hallucination | [Try it live →](https://meghana-rag-pipeline.streamlit.app) |
 | 📚 Course Generator | Generate complete course outlines using instructional design principles | [Try it live →](https://meghana-course-generator.streamlit.app) |
-
+| 🧩 Quiz Maker | Generate MCQ quizzes from any training content instantly | [Try it live →](https://meghana-quiz-maker.streamlit.app) |
 ---
 
 ## About This Journey
@@ -46,7 +45,7 @@ Days 1–68 were deep concept study. Days 69+ are real running Python code, comm
 | **Deployed to public URL** | Live on Streamlit Community Cloud, shareable link | **Day 77** |
 | **AI Course Generator** | L&D expertise + AI engineering in one deployed tool | **Day 78** |
 | **RAG Evaluation** | Custom LLM-as-a-judge: faithfulness, relevancy, precision | **Day 79** |
-
+| **AI Quiz Maker** | MCQ generator from any training content — deployed live | **Day 80** |
 ---
 
 ## 🛠 Tech Stack
