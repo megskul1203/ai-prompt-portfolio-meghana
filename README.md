@@ -17,6 +17,7 @@
 | 📚 Course Generator | Generate complete course outlines using instructional design principles | [Try it live →](https://meghana-course-generator.streamlit.app) |
 | 🧩 Quiz Maker | Generate MCQ quizzes from any training content instantly | [Try it live →](https://meghana-quiz-maker.streamlit.app) |
 | ✨ Prompt Improver | Analyse and rewrite weak prompts using prompt engineering principles | [Try it live →](https://meghana-prompt-improver.streamlit.app) |
+| 🃏 Flashcard Generator | Generate active recall flashcards from any training content | [Try it live →](https://meghana-flashcard-generator.streamlit.app) |
 ---
 
 ## About This Journey
