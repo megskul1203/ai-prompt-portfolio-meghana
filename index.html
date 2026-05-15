@@ -1,0 +1,1050 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meghana S Kulkarni — AI Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&family=DM+Mono&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --ink: #0f0e0c;
+    --ink-2: #3a3830;
+    --ink-3: #6b6860;
+    --surface: #faf9f6;
+    --surface-2: #f0ede6;
+    --surface-3: #e4e0d6;
+    --accent: #1a4a8a;
+    --accent-light: #e8f0fb;
+    --accent-mid: #4a7fc1;
+    --gold: #b07d2a;
+    --gold-light: #fdf3e0;
+    --green: #1a6b45;
+    --green-light: #e6f4ed;
+    --border: rgba(15,14,12,0.1);
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--surface);
+    color: var(--ink);
+    line-height: 1.7;
+    overflow-x: hidden;
+  }
+
+  /* ── NAV ── */
+  nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.25rem 4rem;
+    background: rgba(250,249,246,0.92);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .nav-logo {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.2rem;
+    color: var(--ink);
+    text-decoration: none;
+    letter-spacing: -0.01em;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 2.5rem;
+    list-style: none;
+  }
+
+  .nav-links a {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--ink-3);
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    transition: color 0.2s;
+  }
+
+  .nav-links a:hover { color: var(--accent); }
+
+  /* ── HERO ── */
+  .hero {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 8rem 4rem 4rem;
+    gap: 4rem;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: -20%;
+    right: -10%;
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(circle, rgba(26,74,138,0.06) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  .hero-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent);
+    background: var(--accent-light);
+    padding: 0.35rem 0.85rem;
+    border-radius: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-eyebrow::before {
+    content: '';
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--accent);
+    animation: pulse 2s infinite;
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.5; transform: scale(0.8); }
+  }
+
+  .hero h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: clamp(2.8rem, 5vw, 4.2rem);
+    line-height: 1.08;
+    letter-spacing: -0.02em;
+    color: var(--ink);
+    margin-bottom: 1.25rem;
+  }
+
+  .hero h1 em {
+    font-style: italic;
+    color: var(--accent);
+  }
+
+  .hero-desc {
+    font-size: 1.05rem;
+    color: var(--ink-2);
+    max-width: 480px;
+    margin-bottom: 2rem;
+    line-height: 1.75;
+  }
+
+  .hero-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .tag {
+    font-size: 0.78rem;
+    font-weight: 500;
+    padding: 0.3rem 0.75rem;
+    border-radius: 2rem;
+    border: 1px solid var(--border);
+    color: var(--ink-2);
+    background: var(--surface-2);
+    font-family: 'DM Mono', monospace;
+  }
+
+  .hero-cta {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .btn-primary {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.85rem 1.75rem;
+    background: var(--accent);
+    color: #fff;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: all 0.2s;
+    letter-spacing: 0.01em;
+  }
+
+  .btn-primary:hover {
+    background: #153d75;
+    transform: translateY(-1px);
+  }
+
+  .btn-secondary {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.85rem 1.75rem;
+    background: transparent;
+    color: var(--ink);
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.9rem;
+    border: 1px solid var(--surface-3);
+    transition: all 0.2s;
+  }
+
+  .btn-secondary:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+
+  /* ── HERO STATS ── */
+  .hero-stats {
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 1.5rem;
+    align-self: center;
+  }
+
+  .stats-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .stat-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    transition: border-color 0.2s, transform 0.2s;
+  }
+
+  .stat-card:hover {
+    border-color: var(--accent-mid);
+    transform: translateY(-2px);
+  }
+
+  .stat-number {
+    font-family: 'DM Serif Display', serif;
+    font-size: 2.8rem;
+    color: var(--accent);
+    line-height: 1;
+    margin-bottom: 0.25rem;
+  }
+
+  .stat-label {
+    font-size: 0.8rem;
+    color: var(--ink-3);
+    font-weight: 500;
+    letter-spacing: 0.02em;
+  }
+
+  .journey-card {
+    background: var(--accent);
+    color: #fff;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .journey-card::after {
+    content: '90';
+    position: absolute;
+    right: -0.5rem;
+    bottom: -1rem;
+    font-family: 'DM Serif Display', serif;
+    font-size: 7rem;
+    opacity: 0.08;
+    line-height: 1;
+  }
+
+  .journey-card h3 {
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    opacity: 0.7;
+    margin-bottom: 0.5rem;
+  }
+
+  .journey-card p {
+    font-size: 0.95rem;
+    opacity: 0.9;
+    line-height: 1.6;
+  }
+
+  /* ── SECTION COMMON ── */
+  section {
+    padding: 6rem 4rem;
+  }
+
+  .section-label {
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 0.75rem;
+  }
+
+  .section-title {
+    font-family: 'DM Serif Display', serif;
+    font-size: clamp(2rem, 3.5vw, 2.8rem);
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+    color: var(--ink);
+    margin-bottom: 1rem;
+  }
+
+  .section-subtitle {
+    font-size: 1rem;
+    color: var(--ink-3);
+    max-width: 540px;
+    line-height: 1.7;
+    margin-bottom: 3rem;
+  }
+
+  /* ── APPS SECTION ── */
+  #apps { background: var(--surface-2); }
+
+  .apps-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.25rem;
+  }
+
+  .app-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 1rem;
+    padding: 1.75rem;
+    transition: all 0.25s;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .app-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: var(--accent);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s;
+  }
+
+  .app-card:hover {
+    border-color: rgba(26,74,138,0.25);
+    transform: translateY(-3px);
+    box-shadow: 0 12px 32px rgba(26,74,138,0.08);
+  }
+
+  .app-card:hover::before { transform: scaleX(1); }
+
+  .app-icon {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
+
+  .app-title {
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--ink);
+    margin-bottom: 0.4rem;
+  }
+
+  .app-desc {
+    font-size: 0.875rem;
+    color: var(--ink-3);
+    line-height: 1.65;
+    flex: 1;
+    margin-bottom: 1.25rem;
+  }
+
+  .app-tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .tech-pill {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.68rem;
+    padding: 0.2rem 0.55rem;
+    background: var(--accent-light);
+    color: var(--accent);
+    border-radius: 2rem;
+    font-weight: 500;
+  }
+
+  .app-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--accent);
+    text-decoration: none;
+    letter-spacing: 0.01em;
+    transition: gap 0.2s;
+  }
+
+  .app-link:hover { gap: 0.6rem; }
+
+  /* ── SKILLS ── */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .skill-group {
+    border: 1px solid var(--border);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    background: var(--surface);
+  }
+
+  .skill-group-title {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 1rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .skill-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .skill-list li {
+    font-size: 0.875rem;
+    color: var(--ink-2);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .skill-list li::before {
+    content: '';
+    width: 5px; height: 5px;
+    border-radius: 50%;
+    background: var(--accent-mid);
+    flex-shrink: 0;
+  }
+
+  /* ── EXPERIENCE ── */
+  #experience { background: var(--surface-2); }
+
+  .timeline {
+    position: relative;
+    max-width: 720px;
+  }
+
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.75rem;
+    bottom: 0;
+    width: 1px;
+    background: var(--surface-3);
+  }
+
+  .timeline-item {
+    padding-left: 2.5rem;
+    padding-bottom: 3rem;
+    position: relative;
+  }
+
+  .timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -4px;
+    top: 0.6rem;
+    width: 9px; height: 9px;
+    border-radius: 50%;
+    background: var(--accent);
+    border: 2px solid var(--surface-2);
+  }
+
+  .timeline-date {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.75rem;
+    color: var(--ink-3);
+    margin-bottom: 0.4rem;
+    letter-spacing: 0.04em;
+  }
+
+  .timeline-role {
+    font-weight: 600;
+    font-size: 1.05rem;
+    color: var(--ink);
+    margin-bottom: 0.2rem;
+  }
+
+  .timeline-company {
+    font-size: 0.9rem;
+    color: var(--accent);
+    font-weight: 500;
+    margin-bottom: 0.75rem;
+  }
+
+  .timeline-desc {
+    font-size: 0.875rem;
+    color: var(--ink-3);
+    line-height: 1.7;
+  }
+
+  .timeline-badge {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 0.2rem 0.6rem;
+    background: var(--green-light);
+    color: var(--green);
+    border-radius: 2rem;
+    margin-left: 0.5rem;
+    letter-spacing: 0.04em;
+  }
+
+  /* ── CONTACT ── */
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: start;
+  }
+
+  .contact-left h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: clamp(2rem, 3.5vw, 2.8rem);
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+  }
+
+  .contact-left p {
+    color: var(--ink-3);
+    line-height: 1.75;
+    margin-bottom: 2rem;
+  }
+
+  .contact-links {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .contact-link {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 1.25rem;
+    border: 1px solid var(--border);
+    border-radius: 0.75rem;
+    text-decoration: none;
+    color: var(--ink);
+    background: var(--surface);
+    transition: all 0.2s;
+  }
+
+  .contact-link:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+    transform: translateX(4px);
+  }
+
+  .contact-link-icon {
+    width: 36px; height: 36px;
+    border-radius: 0.5rem;
+    background: var(--accent-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    flex-shrink: 0;
+  }
+
+  .contact-link-text strong {
+    display: block;
+    font-size: 0.875rem;
+    font-weight: 600;
+  }
+
+  .contact-link-text span {
+    font-size: 0.78rem;
+    color: var(--ink-3);
+    font-family: 'DM Mono', monospace;
+  }
+
+  .roles-card {
+    background: var(--accent);
+    color: #fff;
+    border-radius: 1.25rem;
+    padding: 2rem;
+  }
+
+  .roles-card h3 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .roles-card p {
+    font-size: 0.875rem;
+    opacity: 0.75;
+    margin-bottom: 1.5rem;
+  }
+
+  .role-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+  }
+
+  .role-item:last-child { border-bottom: none; }
+
+  .role-dot {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.5);
+    flex-shrink: 0;
+  }
+
+  .role-item span {
+    font-size: 0.9rem;
+    opacity: 0.9;
+  }
+
+  .role-lpa {
+    margin-left: auto;
+    font-size: 0.75rem;
+    opacity: 0.6;
+    font-family: 'DM Mono', monospace;
+  }
+
+  /* ── FOOTER ── */
+  footer {
+    padding: 2rem 4rem;
+    border-top: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  footer p {
+    font-size: 0.8rem;
+    color: var(--ink-3);
+  }
+
+  /* ── ANIMATIONS ── */
+  .fade-up {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+  }
+
+  .fade-up.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  @media (max-width: 768px) {
+    nav { padding: 1rem 1.5rem; }
+    .nav-links { display: none; }
+    .hero { grid-template-columns: 1fr; padding: 6rem 1.5rem 3rem; }
+    section { padding: 4rem 1.5rem; }
+    .contact-grid { grid-template-columns: 1fr; }
+    footer { flex-direction: column; gap: 0.5rem; text-align: center; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="#" class="nav-logo">Meghana S Kulkarni</a>
+  <ul class="nav-links">
+    <li><a href="#apps">Projects</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- ── HERO ── -->
+<section class="hero">
+  <div class="hero-content">
+    <div class="hero-eyebrow">Available for AI roles in Bengaluru</div>
+    <h1>Building AI tools<br>that <em>actually</em><br>work.</h1>
+    <p class="hero-desc">
+      Content Developer turned AI practitioner. 90 days of self-directed study. 9 live deployed applications. Computer Science background meets L&D expertise — all pointing toward AI Technical Writing and Prompt Engineering.
+    </p>
+    <div class="hero-tags">
+      <span class="tag">Python</span>
+      <span class="tag">Groq API</span>
+      <span class="tag">RAG Pipelines</span>
+      <span class="tag">Streamlit</span>
+      <span class="tag">Prompt Engineering</span>
+      <span class="tag">ChromaDB</span>
+      <span class="tag">Bloom's Taxonomy</span>
+    </div>
+    <div class="hero-cta">
+      <a href="#apps" class="btn-primary">View 9 Live Apps →</a>
+      <a href="https://github.com/megskul1203" target="_blank" class="btn-secondary">GitHub ↗</a>
+    </div>
+  </div>
+
+  <div class="hero-stats">
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-number">9</div>
+        <div class="stat-label">Live deployed apps</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">90</div>
+        <div class="stat-label">Days of AI study</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">3+</div>
+        <div class="stat-label">Years L&D experience</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">CSE</div>
+        <div class="stat-label">Engineering background</div>
+      </div>
+    </div>
+    <div class="journey-card">
+      <h3>The 90-day AI journey</h3>
+      <p>Days 1–68: AI theory and concepts. Days 69–90: Real code, real apps, real deployments. No bootcamp. No mentor. Just consistency.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ── APPS ── -->
+<section id="apps">
+  <div class="section-label">Portfolio</div>
+  <h2 class="section-title">9 live applications</h2>
+  <p class="section-subtitle">Every app is deployed, publicly accessible, and built from scratch using Python, Groq's LLaMA 3.3 70B, and Streamlit.</p>
+
+  <div class="apps-grid">
+
+    <div class="app-card fade-up">
+      <div class="app-icon">🧠</div>
+      <div class="app-title">RAG Pipeline</div>
+      <div class="app-desc">Full retrieval-augmented generation system with ChromaDB vector database, semantic search, and hallucination prevention. Correctly refuses out-of-scope questions.</div>
+      <div class="app-tech">
+        <span class="tech-pill">ChromaDB</span>
+        <span class="tech-pill">sentence-transformers</span>
+        <span class="tech-pill">Groq API</span>
+        <span class="tech-pill">RAG</span>
+      </div>
+      <a href="https://meghana-rag-pipeline.streamlit.app" target="_blank" class="app-link">View live app →</a>
+    </div>
+
+    <div class="app-card fade-up">
+      <div class="app-icon">📚</div>
+      <div class="app-title">AI Course Generator</div>
+      <div class="app-desc">Topic + audience + duration → complete course outline using Bloom's Taxonomy action verbs. Built for L&D professionals who need structured curriculum fast.</div>
+      <div class="app-tech">
+        <span class="tech-pill">Bloom's Taxonomy</span>
+        <span class="tech-pill">Groq API</span>
+        <span class="tech-pill">Streamlit</span>
+      </div>
+      <a href="https://meghana-course-generator.streamlit.app" target="_blank" class="app-link">View live app →</a>
+    </div>
+
+    <div class="app-card fade-up">
+      <div class="app-icon">🧩</div>
+      <div class="app-title">AI Quiz Maker</div>
+      <div class="app-desc">Paste any training content → generates MCQ questions with 4 options, correct answer, and explanation. Uses JSON structured outputs for reliable parsing.</div>
+      <div class="app-tech">
+        <span class="tech-pill">JSON parsing</span>
+        <span class="tech-pill">Groq API</span>
+        <span class="tech-pill">Streamlit</span>
+      </div>
+      <a href="https://meghana-quiz-maker.streamlit.app" target="_blank" class="app-link">View live app →</a>
+    </div>
+
+    <div class="app-card fade-up">
+      <div class="app-icon">✨</div>
+      <div class="app-title">AI Prompt Improver</div>
+      <div class="app-desc">Analyses any weak prompt, identifies problems, rewrites it, explains every change made, and names the prompt engineering techniques used.</div>
+      <div class="app-tech">
+        <span class="tech-pill">Prompt Engineering</span>
+        <span class="tech-pill">Groq API</span>
+        <span class="tech-pill">JSON</span>
+      </div>
+      <a href="https://meghana-prompt-improver.streamlit.app" target="_blank" class="app-link">View live app →</a>
+    </div>
+
+    <div class="app-card fade-up">
+      <div class="app-icon">🃏</div>
+      <div class="app-title">AI Flashcard Generator</div>
+      <div class="app-desc">Training content → active recall flashcards at Beginner, Intermediate, and Advanced difficulty. Interactive flip-style UI with navigation controls.</div>
+      <div class="app-tech">
+        <span class="tech-pill">Active Recall</span>
+        <span class="tech-pill">Groq API</span>
+        <span class="tech-pill">Streamlit</span>
+      </div>
+      <a href="https://meghana-flashcard-generator.streamlit.app" target="_blank" class="app-link">View live app →</a>
+    </div>
+
+    <div class="app-card fade-up">
+      <div class="app-icon">🎓</div>
+      <div class="app-title">Combined L&D Toolkit</div>
+      <div class="app-desc">Four tools in one multi-tab app: Course Generator, Quiz Maker, Flashcard Generator, and Prompt Improver. One link, four AI-powered L&D tools.</div>
+      <div class="app-tech">
+        <span class="tech-pill">Multi-tab UI</span>
+        <span class="tech-pill">Groq API</span>
+        <span class="tech-pill">st.tabs()</span>
+      </div>
+      <a href="https://meghana-ld-toolkit.streamlit.app" target="_blank" class="app-link">View live app →</a>
+    </div>
+
+    <div class="app-card fade-up">
+      <div class="app-icon">🎯</div>
+      <div class="app-title">AI Job Description Analyser</div>
+      <div class="app-desc">Paste any JD → fit score, gap analysis, strength mapping, tailored pitch, and 5 likely interview questions — all personalised to your profile.</div>
+      <div class="app-tech">
+        <span class="tech-pill">Profile matching</span>
+        <span class="tech-pill">Groq API</span>
+        <span class="tech-pill">JSON</span>
+      </div>
+      <a href="https://meghana-jd-analyser.streamlit.app" target="_blank" class="app-link">View live app →</a>
+    </div>
+
+    <div class="app-card fade-up">
+      <div class="app-icon">🔍</div>
+      <div class="app-title">AI Job Search Agent</div>
+      <div class="app-desc">Live jobs from LinkedIn, Indeed, and Glassdoor — ranked by profile fit. Combines JSearch API with Groq LLM analysis. Generates tailored pitches per job.</div>
+      <div class="app-tech">
+        <span class="tech-pill">JSearch API</span>
+        <span class="tech-pill">RapidAPI</span>
+        <span class="tech-pill">Multi-API</span>
+      </div>
+      <a href="https://meghana-job-search-agent.streamlit.app" target="_blank" class="app-link">View live app →</a>
+    </div>
+
+    <div class="app-card fade-up">
+      <div class="app-icon">🗺️</div>
+      <div class="app-title">AI Learning Path Generator</div>
+      <div class="app-desc">Any skill + goal + timeline → week-by-week learning plan with Bloom's Taxonomy objectives, curated resources, milestones, and a capstone project.</div>
+      <div class="app-tech">
+        <span class="tech-pill">Bloom's Taxonomy</span>
+        <span class="tech-pill">Instructional Design</span>
+        <span class="tech-pill">Groq API</span>
+      </div>
+      <a href="https://meghana-learning-path-generator.streamlit.app" target="_blank" class="app-link">View live app →</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── SKILLS ── -->
+<section id="skills">
+  <div class="section-label">Technical Skills</div>
+  <h2 class="section-title">What I bring to the table</h2>
+  <p class="section-subtitle">A rare combination — computer science foundation, L&D expertise, and 90 days of hands-on AI development.</p>
+
+  <div class="skills-grid">
+    <div class="skill-group fade-up">
+      <div class="skill-group-title">AI & Development</div>
+      <ul class="skill-list">
+        <li>Python (APIs, JSON, functions, file handling)</li>
+        <li>Groq API — LLaMA 3.3 70B integration</li>
+        <li>RAG Pipelines — end-to-end implementation</li>
+        <li>ChromaDB — vector database operations</li>
+        <li>sentence-transformers — embeddings & semantic search</li>
+        <li>Streamlit — 9 deployed web applications</li>
+      </ul>
+    </div>
+
+    <div class="skill-group fade-up">
+      <div class="skill-group-title">Prompt Engineering</div>
+      <ul class="skill-list">
+        <li>Zero-shot and few-shot prompting</li>
+        <li>Chain-of-thought reasoning</li>
+        <li>Role prompting and persona design</li>
+        <li>JSON structured output prompting</li>
+        <li>LLM evaluation — Faithfulness, Relevancy, Precision</li>
+        <li>Hallucination prevention techniques</li>
+      </ul>
+    </div>
+
+    <div class="skill-group fade-up">
+      <div class="skill-group-title">APIs & Integration</div>
+      <ul class="skill-list">
+        <li>REST API integration (requests library)</li>
+        <li>RapidAPI — JSearch job data</li>
+        <li>python-dotenv — secure key management</li>
+        <li>Streamlit Community Cloud deployment</li>
+        <li>GitHub — version control and portfolio hosting</li>
+      </ul>
+    </div>
+
+    <div class="skill-group fade-up">
+      <div class="skill-group-title">L&D & Instructional Design</div>
+      <ul class="skill-list">
+        <li>Bloom's Taxonomy — applied to AI prompting</li>
+        <li>eLearning script writing and storyboarding</li>
+        <li>Articulate and Vyond authoring tools</li>
+        <li>Stepping Stone LMS administration</li>
+        <li>Curriculum design — process and behavioural modules</li>
+        <li>Technical writing and content development</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ── EXPERIENCE ── -->
+<section id="experience">
+  <div class="section-label">Experience</div>
+  <h2 class="section-title">Where I've worked</h2>
+  <p class="section-subtitle">3+ years across content, L&D, and now AI — each role building toward the same direction.</p>
+
+  <div class="timeline">
+
+    <div class="timeline-item fade-up">
+      <div class="timeline-date">Oct 2024 – Present</div>
+      <div class="timeline-role">Content Writer → Content Developer <span class="timeline-badge">Promoted</span></div>
+      <div class="timeline-company">Bigbasket, Bengaluru</div>
+      <div class="timeline-desc">Write and storyboard eLearning scripts for process and behavioural training modules. Own end-to-end module production using Articulate, Vyond, and Stepping Stone LMS. Lead proofreading for the L&D team. Promoted to Content Developer within 13 months.</div>
+    </div>
+
+    <div class="timeline-item fade-up">
+      <div class="timeline-date">Dec 2023 – Oct 2024</div>
+      <div class="timeline-role">Content Writer Intern</div>
+      <div class="timeline-company">IIM Skills, Bengaluru</div>
+      <div class="timeline-desc">Wrote SEO-optimised articles across multiple niches. Achieved top search rankings for 100% of assigned articles. Certified Content Writer — IIM Skills (2024).</div>
+    </div>
+
+    <div class="timeline-item fade-up">
+      <div class="timeline-date">May 2020 – Jun 2023</div>
+      <div class="timeline-role">UPSC Civil Services Preparation</div>
+      <div class="timeline-company">Self-directed, Bengaluru</div>
+      <div class="timeline-desc">3 years of intensive self-directed study. Built strong research, analytical writing, and complex-topic simplification skills — all directly transferable to technical writing and AI documentation.</div>
+    </div>
+
+    <div class="timeline-item fade-up">
+      <div class="timeline-date">Aug 2015 – Feb 2020</div>
+      <div class="timeline-role">B.E. Computer Science Engineering</div>
+      <div class="timeline-company">PDA College of Engineering, Gulbarga</div>
+      <div class="timeline-desc">Computer Science foundation — the technical base that made the 90-day AI journey possible.</div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── CONTACT ── -->
+<section id="contact">
+  <div class="contact-grid">
+    <div class="contact-left">
+      <div class="section-label">Contact</div>
+      <h2>Let's build something together.</h2>
+      <p>I'm actively looking for AI Technical Writer, Prompt Engineer, and AI Curriculum Designer roles in Bengaluru. If my work matches what you're building — let's talk.</p>
+
+      <div class="contact-links">
+        <a href="mailto:megskul1203@gmail.com" class="contact-link">
+          <div class="contact-link-icon">✉️</div>
+          <div class="contact-link-text">
+            <strong>Email</strong>
+            <span>megskul1203@gmail.com</span>
+          </div>
+        </a>
+        <a href="https://github.com/megskul1203" target="_blank" class="contact-link">
+          <div class="contact-link-icon">💻</div>
+          <div class="contact-link-text">
+            <strong>GitHub</strong>
+            <span>github.com/megskul1203</span>
+          </div>
+        </a>
+        <a href="https://www.linkedin.com/in/meghana-kulkarni-2a4538317" target="_blank" class="contact-link">
+          <div class="contact-link-icon">🔗</div>
+          <div class="contact-link-text">
+            <strong>LinkedIn</strong>
+            <span>meghana-kulkarni-2a4538317</span>
+          </div>
+        </a>
+        <a href="tel:+917022102233" class="contact-link">
+          <div class="contact-link-icon">📞</div>
+          <div class="contact-link-text">
+            <strong>Phone</strong>
+            <span>+91 7022102233</span>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="roles-card">
+      <h3>Open to these roles</h3>
+      <p>Based in Bengaluru · Available immediately</p>
+      <div class="role-item">
+        <div class="role-dot"></div>
+        <span>AI Technical Writer</span>
+        <span class="role-lpa">8–14 LPA</span>
+      </div>
+      <div class="role-item">
+        <div class="role-dot"></div>
+        <span>Prompt Engineer</span>
+        <span class="role-lpa">10–18 LPA</span>
+      </div>
+      <div class="role-item">
+        <div class="role-dot"></div>
+        <span>AI Curriculum Designer</span>
+        <span class="role-lpa">10–16 LPA</span>
+      </div>
+      <div class="role-item">
+        <div class="role-dot"></div>
+        <span>AI Learning Experience Designer</span>
+        <span class="role-lpa">16–24 LPA</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Meghana S Kulkarni · Built by hand · Bengaluru, India</p>
+  <p>90 days → 9 apps → 1 career pivot</p>
+</footer>
+
+<script>
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry, i) => {
+    if (entry.isIntersecting) {
+      setTimeout(() => entry.target.classList.add('visible'), i * 80);
+    }
+  });
+}, { threshold: 0.1 });
+
+document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+</script>
+</body>
+</html>
