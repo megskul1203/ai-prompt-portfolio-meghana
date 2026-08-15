@@ -1,6 +1,6 @@
-# Meghana's 90-Day AI Engineer Journey
+# Meghana's 90-Day AI + Instructional Design Journey
 
-### Bengaluru → Production AI Engineering → ₹12–18 LPA
+### Bengaluru → Instructional Design, L&D, and Applied AI
 
 ![Progress](https://img.shields.io/badge/Day-90%20of%2090-brightgreen) ![Phase](https://img.shields.io/badge/Phase-Complete-blue) ![Code Days](https://img.shields.io/badge/Real%20Code%20Days-69--90-orange) ![Live Apps](https://img.shields.io/badge/Live%20Apps-11%20Deployed-success)
 
@@ -28,13 +28,17 @@
 
 ## About This Journey
 
-I'm Meghana — a Content Developer (L&D) in Bengaluru, actively transitioning into AI Engineering. This repository documents my daily progression from AI concept study to deployed, production-style AI applications.
+I'm Meghana — a Content Developer (L&D) in Bengaluru with 2+ years of experience in instructional design, eLearning script writing, and enterprise training rollouts. This repository documents a self-directed 90-day journey into applied AI, built alongside my day-to-day instructional design work rather than instead of it.
 
-**Background:** CS Engineering degree → 3 years UPSC prep → Content Developer (L&D) at Bigbasket → AI Engineer in training.
+**Background:** CS Engineering degree → 3 years UPSC preparation → Content Developer (L&D) at Bigbasket → applied AI skills built independently.
 
-Days 1–68 were deep concept study. Days 69–90 are real running Python code, committed and deployed daily — culminating in 11 live applications.
+**Why this repo exists:** Instructional design and AI-assisted learning tools are converging. This portfolio shows both sides — the traditional L&D craft (scripting, curriculum structure, stakeholder rollout at scale) and the applied AI skills (RAG pipelines, prompt engineering, LLM output evaluation) that are increasingly relevant to modern L&D and AI-adjacent roles alike.
 
-**What makes this portfolio different:** I don't just know AI concepts — I've built and deployed working applications that combine L&D domain expertise with AI engineering. Every project below has a real `.py` file that runs, and most are live on the web.
+Days 1–68 were deep AI concept study. Days 69–90 are real, running Python code, committed and deployed daily — culminating in 11 live applications, several of which are direct extensions of instructional design work (course generation, learning paths, quiz/flashcard creation, all built on Bloom's Taxonomy).
+
+**This portfolio is relevant whether you're evaluating me for:**
+- **Instructional Design / Curriculum Development** roles — see the Live Applications above, especially the Course Generator, Learning Path Generator, and L&D Toolkit, plus my professional L&D experience below
+- **AI-adjacent roles** (AI Curriculum Designer, Prompt Engineer, AI Technical Writer) — see the RAG Pipeline, Evaluation Framework, and full 90-day build log
 
 ---
 
@@ -67,6 +71,19 @@ Days 1–68 were deep concept study. Days 69–90 are real running Python code, 
 
 ---
 
+## 🎓 Professional Experience Highlights (Instructional Design)
+
+> For roles evaluating L&D / Instructional Design experience specifically — full resume available on request.
+
+**Content Developer — Bigbasket** (Oct 2024 – Present, promoted from Content Writer Nov 2025)
+
+- Scripted Bigbasket's mandatory induction modules — *Spirit of BB* and *Competencies of BB* — reaching 45,000+ employees company-wide; the Competencies script earned a 9.5/10 feedback score, the highest in company history.
+- Leading script and production for a 38-module process training curriculum (~6 hours video + Articulate) for 11,000+ employees, coordinating with SMEs across teams.
+- Own end-to-end eLearning script production: writing, review coordination, and final QC.
+- Script 2–3 WhatsApp microlearning modules monthly; proofread leadership communication videos; co-designed the 2025 company diary.
+
+---
+
 ## 🛠 Tech Stack
 
 | Layer | Tools |
@@ -80,6 +97,7 @@ Days 1–68 were deep concept study. Days 69–90 are real running Python code, 
 | Evaluation | Custom LLM-as-a-judge (faithfulness, relevancy, precision) |
 | Other APIs | RapidAPI / JSearch (live job search) |
 | Document generation | python-docx |
+| L&D Authoring | Articulate Storyline 360, Vyond, Stepping Stone LMS |
 
 ---
 
@@ -226,28 +244,29 @@ Days 1–68 were deep concept study. Days 69–90 are real running Python code, 
 
 ## 🎯 Target Roles
 
-| Role | Status | Salary Range |
-|---|---|---|
-| AI Curriculum Designer / LLM Training Content Developer | **Best fit now** — L&D background is the advantage | ₹10–16 LPA |
-| AI Technical Writer | Ready to apply now | ₹8–14 LPA |
-| Prompt Engineer | Live RAG demo ready | ₹10–18 LPA |
-| AI Learning Experience Designer | Month 2 target | ₹16–24 LPA |
+| Role | Status |
+|---|---|
+| Instructional Designer / Curriculum Developer | Primary focus — 2+ years professional L&D experience |
+| AI Curriculum Designer / LLM Training Content Developer | Strong fit — L&D background + AI evaluation skills |
+| AI Technical Writer | Ready to apply |
+| Prompt Engineer | Live RAG demo ready |
 
-**Companies whose work aligns with this profile:** Sarvam AI · Krutrim · AI4Bharat · CoRover.ai · Vernacular.ai · Freshworks · Postman · Hasura · Razorpay · Chargebee · Sprinklr · Uniphore · Observe.AI · Yellow.ai · upGrad · Scaler · Great Learning · Simplilearn
+**Companies whose work aligns with this profile:** upGrad · Scaler · Great Learning · Simplilearn · Sarvam AI · Krutrim · AI4Bharat · CoRover.ai · Vernacular.ai · Freshworks · Postman · Hasura · Razorpay · Chargebee · Sprinklr · Uniphore · Observe.AI · Yellow.ai
 
 ---
 
 ## 🎓 Certifications
 
+- The Complete Instructional Designer Course — Udemy (August 2026)
+- Introduction to Technical Writing — Udemy (July 2026)
+- Google AI Essentials (5-course Specialization) — Google, via Coursera (June 2026)
 - Certified Content Writer — IIM Skills (2024)
-- Google AI Essentials — Coursera (2026)
 
 ## 🧰 L&D & Authoring Tools
 
-Articulate Storyline (Articulate 360) · Vyond · Stepping Stone LMS · Instructional Design (Bloom's Taxonomy) · eLearning script writing & storyboarding
+Articulate Storyline (Articulate 360) · Vyond · Stepping Stone LMS · Instructional Design (ADDIE, SAM, Bloom's Taxonomy) · eLearning script writing & storyboarding
 
 ---
 
-
-*Last updated: Day 90 complete — 11 apps live, portfolio website published, resume rebuilt*
+*Last updated: Day 90 complete — 11 apps live, portfolio website published*
 *Location: Bengaluru, Karnataka*
