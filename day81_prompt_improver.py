@@ -50,7 +50,7 @@ PROMPT ENGINEERING TECHNIQUE USED:
 Format specification, Constraint setting]"""
 
     response = client.chat.completions.create(
-        model="llama-3.3-70b-versatile",
+        model="openai/gpt-oss-120b",
         messages=[{"role": "user", "content": prompt}]
     )
     return response.choices[0].message.content
