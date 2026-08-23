@@ -7,46 +7,47 @@ from dotenv import load_dotenv
 
 load_dotenv()
 client = Groq(api_key=os.getenv("GROQ_API_KEY"))
-MODEL = "llama-3.3-70b-versatile"
+MODEL = "openai/gpt-oss-120b"
 
 # ── Meghana's profile ─────────────────────────────────────────────────────────
 MEGHANA_PROFILE = """
 Name: Meghana S Kulkarni
-Current Role: Content Developer at Bigbasket (promoted from Content Writer in 13 months)
-Education: B.E. Computer Science Engineering, PDA College of Engineering, 2020
-Location: Bengaluru, India
-Email: megskul1203@gmail.com
-Phone: +91 7022102233
-GitHub: github.com/megskul1203
-LinkedIn: linkedin.com/in/meghana-kulkarni-2a4538317
-Portfolio: megskul1203.github.io/ai-prompt-portfolio-meghana
-
-AI Journey:
-- 90 days of self-directed AI study (no bootcamp, no mentor)
-- 10 live deployed Streamlit applications
-
-Key Projects:
-1. RAG Pipeline — full retrieval-augmented generation with ChromaDB + semantic search
-2. AI Course Generator — Bloom's Taxonomy based curriculum generation
-3. AI Quiz Maker — training content to MCQ with JSON structured outputs
-4. AI Prompt Improver — analyses and rewrites weak prompts with technique explanations
-5. AI Flashcard Generator — active recall cards at multiple difficulty levels
-6. Combined L&D Toolkit — 4 tools in one multi-tab app
-7. AI Job Description Analyser — JD to fit score, gap analysis, tailored pitch
-8. AI Job Search Agent — live jobs from LinkedIn/Indeed ranked by profile fit
-9. AI Learning Path Generator — Bloom's Taxonomy week-by-week learning plans
-10. AI Cold Email Generator — personalised outreach emails for job applications
-
-Technical Skills:
-Python, Groq API, LLaMA 3.3 70B, RAG Pipelines, ChromaDB, Streamlit,
-Prompt Engineering, REST APIs, RapidAPI, sentence-transformers, JSON parsing
-
-L&D Skills:
-Instructional Design, Bloom's Taxonomy, eLearning scripting, Articulate,
-Vyond, Stepping Stone LMS, Technical Writing, Storyboarding
-
-Target Roles: AI Technical Writer, Prompt Engineer, AI Curriculum Designer
-Salary Target: 12-18 LPA
+Instructional Designer  |  Curriculum Developer  |  eLearning Specialist
+Bengaluru, Karnataka, India  |  +91 7022102233  |  megskul1203@gmail.com
+linkedin.com/in/meghana-kulkarni-2a4538317   |   github.com/megskul1203
+SUMMARY
+Instructional Designer with 2+ years of experience designing scalable, outcome-aligned eLearning modules, interactive scripts, and Articulate Storyline courses for enterprise programs reaching 45,000+ employees. Expertise across full L&D lifecycles — from Training Needs Analysis (TNA) and storyboarding to SME collaboration and rollout management. Computer Science Engineering background paired with hands-on experience building generative AI tools — including retrieval-augmented generation (RAG) pipelines and agentic workflows — to automate curriculum design and learning-outcome mapping.
+CORE SKILLS
+Instructional Design & Methodology: ADDIE, SAM (Successive Approximation Model), Bloom's Taxonomy, Curriculum Development, Storyboarding, Script Writing, Training Needs Analysis (TNA), Assessment Design, Skill-Aligned Learning Outcomes
+eLearning & Authoring Tools: Articulate Storyline 360, Vyond, Stepping Stone LMS, Microlearning Design, Video Production & QC, Canva, MS Office
+AI-Enhanced L&D Capabilities: Prompt Engineering, RAG Pipelines, Agentic Workflows, AI Curriculum Tools (Streamlit/Python), LLM Content Evaluation, Workflow Automation
+Stakeholder Management: SME Coordination, Executive Communications, Cross-Functional Project Leadership
+AI INSTRUCTIONAL DESIGN PROJECTS
+•	Bloom's Taxonomy Learning Path Generator: Built a Streamlit application using LLMs to auto-generate structured, skill-aligned, multi-tier learning plans mapped to Bloom's cognitive levels.
+•	Integrated L&D Toolkit: Designed an all-in-one suite — AI Course Generator, Quiz & Flashcard Maker, and Prompt Improver — with reusable templates for instructional designers.
+•	AI Job Search Agent (Agentic Workflow): Built an autonomous agent that pulls live job listings via API and ranks them against a candidate profile using LLM-based scoring.
+Portfolio & demos: github.com/megskul1203/ai-prompt-portfolio-meghana
+PROFESSIONAL EXPERIENCE
+Content Developer  —  Bigbasket
+October 2024 – Present  (Promoted from Content Writer, November 2025)  |  Bengaluru
+•	Enterprise Curriculum Design: Leading design and production of a 38-module (~6 hours video + Articulate), skill-aligned process training curriculum, measured by scope covering 11,000+ G1 supply chain and delivery employees, by architecting modular learning outcomes and script templates in partnership with SCM and LMD SMEs (launching Sept 2026).
+•	Company-Wide Onboarding Content: Delivered the highest-rated induction script in company history, measured by a 9.5/10 feedback score across 45,000+ employees, by designing outcome-driven induction modules (Spirit of BB and Competencies of BB) through iterative stakeholder review (Dec 2025).
+•	Production Quality Standards: Ensured consistent, on-brief training video output, measured by successful delivery across 4 live production shoots, by setting script cueing and QC acceptance criteria and directing visual alignment with SCM and Last Mile Delivery (LMD) SMEs.
+•	Agile Microlearning Delivery: Sustained continuous skill reinforcement for operational teams, measured by 2–3 modules shipped monthly, by designing fast-turnaround WhatsApp microlearning content tied to live process updates.
+•	Proofread leadership communication videos before company-wide release; co-designed the 2025 company diary.
+Content Writer Intern  —  IIM Skills
+December 2023 – October 2024  |  Bengaluru
+•	Wrote SEO-optimised articles across multiple content niches, achieving top search rankings for 100% of assigned articles.
+•	Completed the Masters Course in Content Writing, certified by IIM Skills, covering structured writing, research, and audience-aware content development.
+UPSC Civil Services Preparation  —  Self-Directed
+May 2020 – June 2023
+•	3 years of intensive, self-directed study for India's national civil services examination — built research, analytical writing, and complex-topic simplification skills that carried directly into instructional design and content.
+EDUCATION
+B.E. Computer Science Engineering  —  PDA College of Engineering, Gulbarga
+2020
+CERTIFICATIONS
+The Complete Instructional Designer Course — Udemy   •  Certified Content Writer — IIM Skills   •  Google AI Essentials (5-course Specialization) — Coursera   •  Introduction to Technical Writing — Udemy 
+Languages: English, Kannada, Hindi
 """
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
