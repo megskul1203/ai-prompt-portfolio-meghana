@@ -60,7 +60,7 @@ Context:
 Question: {question}
 Answer:"""
     response = client.chat.completions.create(
-        model="llama-3.3-70b-versatile",
+        model="openai/gpt-oss-120b",
         messages=[{"role": "user", "content": prompt}]
     )
     return response.choices[0].message.content, retrieved_docs
@@ -85,7 +85,7 @@ Rate faithfulness from 0.0 to 1.0 where:
 
 Reply with ONLY a number between 0.0 and 1.0. Nothing else."""
     response = client.chat.completions.create(
-        model="llama-3.3-70b-versatile",
+        model="openai/gpt-oss-120b",
         messages=[{"role": "user", "content": prompt}]
     )
     return float(response.choices[0].message.content.strip())
@@ -103,7 +103,7 @@ Rate answer relevancy from 0.0 to 1.0 where:
 
 Reply with ONLY a number between 0.0 and 1.0. Nothing else."""
     response = client.chat.completions.create(
-        model="llama-3.3-70b-versatile",
+        model="openai/gpt-oss-120b",
         messages=[{"role": "user", "content": prompt}]
     )
     return float(response.choices[0].message.content.strip())
@@ -123,7 +123,7 @@ Rate context precision from 0.0 to 1.0 where:
 
 Reply with ONLY a number between 0.0 and 1.0. Nothing else."""
     response = client.chat.completions.create(
-        model="llama-3.3-70b-versatile",
+        model="openai/gpt-oss-120b",
         messages=[{"role": "user", "content": prompt}]
     )
     return float(response.choices[0].message.content.strip())
